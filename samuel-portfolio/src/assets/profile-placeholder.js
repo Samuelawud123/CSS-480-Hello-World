@@ -1,0 +1,4 @@
+// Simple SVG placeholder for profile image
+const profilePlaceholder = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22250%22%20height%3D%22250%22%20viewBox%3D%220%200%20250%20250%22%3E%3Ccircle%20cx%3D%22125%22%20cy%3D%22125%22%20r%3D%22125%22%20fill%3D%22%23e0e0e0%22%2F%3E%3Ccircle%20cx%3D%22125%22%20cy%3D%2290%22%20r%3D%2240%22%20fill%3D%22%23bdbdbd%22%2F%3E%3Cpath%20d%3D%22M50%20200C50%20160%20200%20160%20200%20200%22%20stroke%3D%22%23bdbdbd%22%20stroke-width%3D%2240%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E';
+
+export default profilePlaceholder; 

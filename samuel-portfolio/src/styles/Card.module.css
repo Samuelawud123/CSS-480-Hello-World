@@ -1,0 +1,26 @@
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.projectCard {
+  background-color: #f0f8ff;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--primary-color);
+  margin-bottom: 1.5rem;
+} 

@@ -1,0 +1,25 @@
+.interestsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.interestItem {
+  background-color: #e6f7ff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.interestItem:hover {
+  transform: scale(1.05);
+}
+
+.shuffleButton {
+  margin-top: 1.5rem;
+  display: inline-block;
+} 
