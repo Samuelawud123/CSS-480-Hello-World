@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.navItem a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.navItem a:focus {
+  outline: 2px solid var(--primary-color);
+  background-color: #e6f7ff;
+  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.3);
+  color: var(--primary-color);
+  text-decoration: none;
+} 

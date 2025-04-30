@@ -1,21 +1,20 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './styles/globals.css';
-import Hero from './components/Hero';
-import About from './components/About';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Project from './components/Project';
-import Interests from './components/Interests';
+import NavBar from './components/NavBar.jsx';
+import HomePage from './components/HomePage.jsx';
+import ThingsToRead from './components/ThingsToRead.jsx';
 
 function App() {
   return (
     <div className="app">
-      <Hero />
-      <About />
-      <Experience />
-      <Education />
-      <Project />
-      <Interests />
+      <NavBar />
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/things-to-read" element={<ThingsToRead />} />
+        </Routes>
+      </main>
     </div>
   );
 }
