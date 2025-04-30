@@ -24,7 +24,7 @@ const HomePage = () => {
         <ul>
           <li>Press the <strong>Tab</strong> key to move focus to the next interactive element (links, buttons).</li>
           <li>Press <strong>Shift + Tab</strong> to move focus to the previous interactive element.</li>
-          <li>Press <strong>Enter</strong> or <strong>Space</strong> to activate a focused link or button.</li>
+          <li>Press <strong>Enter</strong> to activate a focused link or button.</li>
         </ul>
         <p>
           This site aims to support keyboard-only users and improve navigation accessibility following usability guidelines. We especially focused on making sure each element has a clear visual focus style and that the tab order follows a logical reading flow.
