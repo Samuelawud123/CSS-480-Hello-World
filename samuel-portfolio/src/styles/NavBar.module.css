@@ -30,8 +30,8 @@
 
 .navItem a:focus {
   outline: 2px solid var(--primary-color);
-  background-color: #e6f7ff;
-  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.3);
+  background-color: #e7eef7;
+  box-shadow: 0 0 0 3px rgba(0, 52, 112, 0.3);
   color: var(--primary-color);
   text-decoration: none;
 } 

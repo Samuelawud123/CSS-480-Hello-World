@@ -8,11 +8,12 @@
 }
 
 .interestItem {
-  background-color: #e6f7ff;
+  background-color: var(--secondary-color);
+  color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   transition: transform 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .interestItem:hover {
