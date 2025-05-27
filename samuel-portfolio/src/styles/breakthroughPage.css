@@ -1,0 +1,110 @@
+.breakthrough-blog-root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 4rem 1rem;
+  font-family: inherit;
+  background: #f8f9fb;
+}
+
+.breakthrough-blog-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.breakthrough-blog-header h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #23244a;
+  margin-bottom: 0.5rem;
+}
+
+.breakthrough-blog-sub {
+  color: #5f6cfa;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.breakthrough-blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.breakthrough-blog-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 rgba(95,108,250,0.10);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.18s, transform 0.18s;
+  min-width: 0;
+}
+.breakthrough-blog-card:hover, .breakthrough-blog-card:focus-within {
+  box-shadow: 0 8px 32px 0 rgba(95,108,250,0.18);
+  transform: translateY(-4px) scale(1.025);
+}
+
+.breakthrough-blog-img-wrap {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #e7e9f7;
+  overflow: hidden;
+}
+
+.breakthrough-blog-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.18s;
+}
+.breakthrough-blog-card:hover .breakthrough-blog-img {
+  transform: scale(1.04);
+}
+
+.breakthrough-blog-content {
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.breakthrough-blog-content h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #23244a;
+  margin-bottom: 0.5rem;
+}
+
+.breakthrough-blog-date {
+  font-size: 0.98rem;
+  color: #5f6cfa;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+  display: block;
+}
+
+.breakthrough-blog-content p {
+  color: #222;
+  font-size: 1.05rem;
+  margin-bottom: 0;
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .breakthrough-blog-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .breakthrough-blog-header h1 {
+    font-size: 1.5rem;
+  }
+  .breakthrough-blog-content {
+    padding: 1rem 0.7rem 0.9rem 0.7rem;
+  }
+} 

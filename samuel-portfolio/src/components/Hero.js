@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from '../styles/Hero.module.css';
 import profileImage from '../assets/Profile.jpg';
+import breakthroughImg from '../assets/breakthrough/img1.jpeg';
 
 const Hero = () => {
   return (

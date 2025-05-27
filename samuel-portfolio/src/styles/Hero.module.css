@@ -40,6 +40,63 @@
   object-fit: cover;
 }
 
+.breakthroughCtaRow {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 2.5rem;
+  justify-content: center;
+}
+
+.breakthroughCtaImg {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(95,108,250,0.13);
+  object-fit: cover;
+  background: #fff;
+}
+
+.breakthroughCtaBtn {
+  display: inline-block;
+  background: linear-gradient(90deg, #5f6cfa 0%, #8f6cff 100%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 36px;
+  cursor: pointer;
+  box-shadow: 0 2px 16px 0 rgba(95,108,250,0.13);
+  transition: transform 0.18s cubic-bezier(.4,2,.6,1), background 0.18s;
+  outline: none;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+.breakthroughCtaBtn:hover, .breakthroughCtaBtn:focus {
+  background: linear-gradient(90deg, #8f6cff 0%, #5f6cfa 100%);
+  transform: scale(1.07) translateY(-2px);
+  box-shadow: 0 6px 32px 0 rgba(95,108,250,0.18);
+  outline: 2px solid #5f6cfa;
+}
+
+@media (max-width: 600px) {
+  .breakthroughCtaRow {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .breakthroughCtaBtn {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1rem;
+  }
+  .breakthroughCtaImg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 @media (min-width: 768px) {
   .hero {
     flex-direction: row;

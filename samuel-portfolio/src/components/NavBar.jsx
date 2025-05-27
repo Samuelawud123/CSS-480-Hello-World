@@ -12,6 +12,11 @@ const NavBar = () => {
         <li className={styles.navItem}>
           <Link to="/things-to-read">Things to Read</Link>
         </li>
+        <li className={styles.navItem}>
+          <Link to="/breakthrough" className={styles.breakthroughNavBtn}>
+            2025 AI Breakthroughs
+          </Link>
+        </li>
       </ul>
     </nav>
   );
